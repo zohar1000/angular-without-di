@@ -2,7 +2,12 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  template: `
+    <button [routerLink]="'direct-import'">Direct Service Import</button>&nbsp;&nbsp;
+    <button [routerLink]="'base-component'">Base Component</button>
+    <hr/>
+    <router-outlet></router-outlet>
+  `,
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
