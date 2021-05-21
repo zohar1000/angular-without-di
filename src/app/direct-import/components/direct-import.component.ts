@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { errorService, loggingService } from '../../shared/global/global-services';
+import { errorService, loggingService } from '../../shared/global/global.services';
 
 @Component({
   selector: 'app-direct-import',

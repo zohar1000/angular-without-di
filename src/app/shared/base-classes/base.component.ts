@@ -1,4 +1,4 @@
-import { appInjector } from '../global/app-injector';
+import { appInjector } from '../global/app.injector';
 import { LoggingService } from '../services/logging.service';
 import { ErrorService } from '../services/error.service';
 

@@ -3,10 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { setErrorService, setLoggingService } from './shared/global/global-services';
+import { setErrorService, setLoggingService } from './shared/global/global.services';
 import { LoggingService } from './shared/services/logging.service';
 import { ErrorService } from './shared/services/error.service';
-import { setAppInjector } from './shared/global/app-injector';
+import { setAppInjector } from './shared/global/app.injector';
 
 @NgModule({
   declarations: [
